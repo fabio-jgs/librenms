@@ -1,0 +1,12 @@
+os: i-stars
+text: 'iStars_SWV4.25'
+type: power
+over:
+  - { graph: device_load, text: Load }
+  - { graph: device_charge, text: Charge }
+  - { graph: device_voltage, text: Voltage }
+
+discovery:
+   - sysDescr_regex:     
+     - '/iStars_SW/' 
+
